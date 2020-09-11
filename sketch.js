@@ -18,9 +18,9 @@ function setup(){
     World.add(world,ground);
 
    paperObject = new paper(200,200,20,20);
-   basket1 = new basket(800,300,50,20);
-   basket2 = new basket(790,300,20,50);
-   basket3 = new basket(810,300,20,50);
+   basket1 = new basket(1000,370,100,20);
+   basket2 = new basket(950,355,20,50);
+   basket3 = new basket(1050,355,20,50);
 
 console.log(ground);
 

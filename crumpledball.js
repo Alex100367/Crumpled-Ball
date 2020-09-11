@@ -16,6 +16,7 @@ class paper{
     }
     
     display(){
+    fill("white");
     ellipseMode(CENTER)
     ellipse(this.ball.position.x, this.ball.position.y, this.r, this.r);
      }
