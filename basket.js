@@ -1,7 +1,6 @@
 class basket{
 
     constructor(x,y,w,h){
-    
     var options = { 
         isStatic: true,
         restitution:0,
@@ -17,7 +16,6 @@ class basket{
     }
     
     display(){
-    fill("blue");
     rectMode(CENTER)
     rect(this.basket.position.x, this.basket.position.y, this.w, this.h);
      }
